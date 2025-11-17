@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT戦略会議 議題資料：AI活用浸透施策</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.75rem; /* 12px */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .card-header {
+            border-bottom: 2px solid;
+        }
+        .card-header-guard {
+            border-color: #3b82f6; /* blue-500 */
+        }
+        .card-header-attack {
+            border-color: #ef4444; /* red-500 */
+        }
+        .icon-svg {
+            width: 2.5rem; /* 40px */
+            height: 2.5rem; /* 40px */
+            margin-bottom: 0.5rem; /* 8px */
+        }
+        .cost-highlight {
+            font-size: 1.875rem; /* 30px */
+            font-weight: 700;
+            line-height: 1;
+        }
+        .phase-arrow {
+            position: relative;
+            padding-left: 2.5rem; /* 40px */
+        }
+        .phase-arrow::before {
+            content: '→';
+            position: absolute;
+            left: 0.5rem; /* 8px */
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.5rem; /* 24px */
+            color: #9ca3af; /* gray-400 */
+        }
+        /* 詳細説明用のスタイルを追加 */
+        .theme-description {
+            font-size: 0.875rem; /* 14px */
+            line-height: 1.6;
+            text-align: left;
+            padding: 0.5rem;
+        }
+        .theme-description strong {
+            color: #4b5563; /* gray-600 */
+        }
+        .strategy-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem; /* 12px */
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .badge-roi { background-color: #fca5a5; color: #b91c1c; } /* red-300 / red-800 */
+        .badge-bpr { background-color: #fdba74; color: #c2410c; } /* orange-300 / orange-800 */
+        .badge-self { background-color: #a7f3d0; color: #047857; } /* emerald-300 / emerald-800 */
+    </style>
+</head>
+<body class="gradient-bg py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+        
+        <!-- ヘッダー -->
+        <header class="mb-10 text-center">
+            <h1 class="text-4xl font-bold text-gray-800">IT戦略会議 議題資料</h1>
+            <p class="text-xl text-gray-600 mt-2">AI宣言後の具体的施策：「攻め」と「守り」のAI戦略パートナーシップについて</p>
+        </header>
+
+        <!-- 目的 -->
+        <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md mb-12">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">1. 本報告の目的</h2>
+            <p class="text-gray-700 leading-relaxed">
+                8月の「AI活用宣言」以降の課題（利用者の二極化）を解決し、社長が目指す**「価値の高いコンサルティングモデルへの転換」**を経営戦略として結実させるため、2つの外部パートナー連携の進捗についてご報告します。
+            </p>
+        </div>
+
+        <!-- 「守り」と「攻め」の戦略 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <!-- カード：【守り】の施策 -->
+            <div class="card">
+                <div class="card-header card-header-guard p-6">
+                    <div class="flex items-center text-blue-600">
+                        <!-- アイコン：守り（盾） -->
+                        <svg class="icon-svg mr-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.333 9-6.03 9-11.623 0-1.314-.213-2.57-.6-3.749A11.959 11.959 0 0118 6c0-2.22-.75-4.286-2.002-5.964A11.959 11.959 0 0012 2.764a11.959 11.959 0 00-3.002-3.728z" />
+                        </svg>
+                        <div>
+                            <h2 class="text-3xl font-bold">①【守り】<br>AI活用の民主化</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-lg text-gray-700 mb-4">**目的：** 全社員のAIリテラシーを底上げし、「使えない」を撲滅する。</p>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-xl text-blue-800 mb-2">提案パートナー： (株)パンハウス</h3>
+                        <p class="font-bold text-lg mb-2">（東大松尾研発・教育特化）</p>
+                        <p class="mb-4">当社の実務課題に即した「個社カスタマイズAI研修」（90分×全8回）</p>
+                        
+                        <h4 class="font-bold text-gray-700">11/11 トライアル結果：</h4>
+                        <p class="mb-4">参加したタスクフォース（辻取締役含む）から**「実務に直結する」と高評価**。</p>
+                        
+                        <h4 class="font-bold text-gray-700">費用対効果（助成金活用時）：</h4>
+                        <p class="text-blue-600 text-center">
+                            <span class="text-lg">実質負担額</span><br>
+                            <span class="cost-highlight">約 8.9 万円 / 人</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- カード：【攻め】の施策 -->
+            <div class="card">
+                <div class="card-header card-header-attack p-6">
+                    <div class="flex items-center text-red-600">
+                        <!-- アイコン：攻め（剣/開発） -->
+                        <svg class="icon-svg mr-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                        </svg>
+                        <div>
+                            <h2 class="text-3xl font-bold">②【攻め】<br>専門業務の革新</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-lg text-gray-700 mb-4">**目的：** 特定業務をAIで革新し、「劇的な成功事例」を創出する。</p>
+                    <div class="bg-red-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-xl text-red-800 mb-2">提案パートナー： 燈（あかり）(株)</h3>
+                        <p class="font-bold text-lg mb-2">（東大松尾研発・開発特化）</p>
+                        <p class="mb-4">社内データを活用した「業務特化型AIエージェント」の開発。</p>
+                        
+                        <h4 class="font-bold text-gray-700">交渉状況（安藤取締役指示）：</h4>
+                        <p class="mb-4">当初提案（v1：900万）に対し、安藤取締役よりスコープと価格の再検討を依頼。現在、v3提案に基づき「2段階契約」で交渉中。</p>
+                        
+                        <h4 class="font-bold text-gray-700">リスクを抑えた新プラン：</h4>
+                        <div class="space-y-3">
+                            <div class="p-3 bg-white rounded-md shadow-sm border border-gray-200">
+                                <span class="text-sm font-bold text-red-600">フェーズ1（交渉中）</span>
+                                <p class="font-bold">テーマ選定・ROI算出</p>
+                                <p class="text-right text-xl font-bold">予算：約 50 万円</p>
+                            </div>
+                            <div class="phase-arrow ml-4 p-3 bg-gray-50 rounded-md border border-gray-200">
+                                <span class="text-sm font-bold text-gray-600">フェーズ2（次ステップ）</span>
+                                <p class="font-bold">本格開発（※フェーズ1の結果次第）</p>
+                                <p class="text-right text-xl font-bold">想定：約 300 万円（交渉中）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 開発候補テーマ -->
+        <div class="card mt-12">
+            <h2 class="text-2xl font-bold text-gray-800 p-6 border-b-2 border-gray-200">4. 【攻め】の施策：開発候補テーマ案</h2>
+            <p class="p-6 text-gray-700">
+                1.5ヶ月の短期PoCで「確実な成功事例」を創出するため、実現可能性（テキスト・データ中心）と戦略的価値に基づき、燈社に提示するテーマ案を以下の3つに絞り込みました。
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-6 pb-6">
+                <!-- テーマ1 -->
+                <div class="p-4 bg-gray-50 rounded-lg flex flex-col">
+                    <div class="text-center">
+                        <span class="strategy-badge badge-roi">戦略的価値：短期 ROI</span>
+                        <svg class="icon-svg mx-auto text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                        </svg>
+                        <h3 class="font-bold text-lg mt-2">1.【本命】見積作成の自動化</h3>
+                    </div>
+                    <div class="theme-description mt-2 flex-grow">
+                        <strong>現状の課題：</strong><br>
+                        過去の類似案件データを活用できず、概算見積もりの作成に属人化したノウハウと時間がかかっている。
+                        <br><br>
+                        <strong>AIによる解決イメージ：</strong><br>
+                        案件情報を入力すると、AIが過去の「類似案件の見積データ（Excel, PDF）」や「標準単価マスタ」を学習し、精度の高い「概算見積もり書」のドラフトを自動生成する。
+                    </div>
+                </div>
+                <!-- テーマ2 -->
+                <div class="p-4 bg-gray-50 rounded-lg flex flex-col">
+                    <div class="text-center">
+                        <span class="strategy-badge badge-bpr">戦略的価値：AI-BPRビジョン</span>
+                        <svg class="icon-svg mx-auto text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 16.121A3 3 0 0012 17.25a3 3 0 002.121-1.129M12 21V17.25m0-10.5V3.75m0 0a3.75 3.75 0 013.75 3.75M12 3.75a3.75 3.75 0 00-3.75 3.75m6 0h3.75m-13.5 0H4.5m10.125 0a6.75 6.75 0 11-13.5 0 6.75 6.75 0 0113.5 0z" />
+                        </svg>
+                        <h3 class="font-bold text-lg mt-2">2.【対抗】プロポ作成補助</h3>
+                    </div>
+                    <div class="theme-description mt-2 flex-grow">
+                        <strong>現状の課題：</strong><br>
+                        「価値の高いコンサルティングモデル」への転換が急務だが、提案書の作成に時間がかかり、品質も属人化している。
+                        <br><br>
+                        <strong>AIによる解決イメージ：</strong><br>
+                        顧客の課題に基づき、AIが過去の「受注成功パターン（提案書）」を学習。ビジョンを反映した高品質な「提案書の構成案・ドラフト」を生成する。
+                    </div>
+                </div>
+                <!-- テーマ3 -->
+                <div class="p-4 bg-gray-50 rounded-lg flex flex-col">
+                    <div class="text-center">
+                        <span class="strategy-badge badge-self">戦略的価値：自走可能性の検証</span>
+                        <svg class="icon-svg mx-auto text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+                        </svg>
+                        <h3 class="font-bold text-lg mt-2">3.【W-Card】営業成果分析</h3>
+                    </div>
+                    <div class="theme-description mt-2 flex-grow">
+                        <strong>現状の課題：</strong><br>
+                        トップ営業のノウハウが属人化。また、燈社の技術が「ファイル処理」だけなのか「DB連携」まで可能なのか、技術力が見極められていない。
+                        <br><br>
+                        <strong>AIによる解決イメージ：</strong><br>
+                        「SFA (eSM)」のDBデータと連携し、営業の成功/失注要因をAIが分析・提案。同時に、燈社の「真のデータ連携能力（＝自走可能性）」を見極める。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 結論・決議事項 -->
+        <div class="mt-12 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">5. 結論と今後の進め方</h2>
+            <p class="text-xl text-gray-700 max-w-3xl mx-auto mb-8">
+                「守り（パンハウス）」と「攻め（燈）」は、AI-BPR戦略の両輪です。<br>
+                以下の2つの施策を「報告事項」として共有します。
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-8">
+                <div class="card p-6 w-full md:w-1/3 border-t-4 border-blue-600">
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">報告事項①【守り】</h3>
+                    <p class="text-gray-700 mb-4">パンハウス研修（タスクフォース10名）の本契約を**検討中**。</p>
+                    <div class="text-3xl font-bold text-blue-600">約 89 万円</div>
+                    <p class="text-sm text-gray-500">（人への投資）</p>
+                </div>
+                <div class="card p-6 w-full md:w-1/3 border-t-4 border-red-600">
+                    <h3 class="text-xl font-bold text-red-800 mb-2">報告事項②【攻め】</h3>
+                    <p class="text-gray-700 mb-4">燈社との「フェーズ1（テーマ選定）」契約を**交渉中**。</p>
+                    <div class="text-3xl font-bold text-red-600">約 50 万円</div>
+                    <p class="text-sm text-gray-500">（未来への投資）</p>
+                </div>
+            </div>
+            <p class="mt-8 text-lg text-gray-700">以上、ご報告いたします。</p>
+        </div>
+
+    </div>
+</body>
+</html>
